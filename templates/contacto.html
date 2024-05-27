@@ -1,0 +1,50 @@
+{%extends "layout.html"%}
+
+{%block content%}
+    
+        <section class="main" >
+            <section class="articles">
+                    <article>
+                        <h2>Para cualquier servicio puedes recurrir a los siguientes enlaces de google:  </h2>
+                        <p><a href="https://g.co/kgs/gr1cmeP">Medical Zoo</a>
+                            <br>4494064719
+                            <br>
+                            <a href="https://g.co/kgs/9RoKBfG">Hospital De Mascotas</a>
+                            <br>4496365575
+                            <br>
+                            <a href="https://g.co/kgs/cCCv5tE">Estetica</a>
+                            <br>4491994544</p>
+                    </article>
+                    <article>
+                        <h2>Tambien puedes dejarnos un mensaje por aqui:  </h2>
+                            <form action="/agrega_comenta" method="post">
+                                <div class="container">
+                                       <div class="form-row">
+                                            <div class="col-xs-12 ">
+                                             <div class="mb-3">
+                                                   <label for="correo" class="form-label">Escribe aqui tu correo electronico</label>
+                                                   <input type="email" class="form-control" name="correo" id="correo" placeholder="nombre@ejemplo.com">
+                                             </div>
+                                             <div class="mb-3">
+                                                   <label for="comentarios" class="form-label">Escribe tu mensaje</label>
+                                                   <input type="text" class="form-control" name="comentarios" id="comentarios"></input>
+                                             </div>
+                                             </div>
+                                       </div>
+                                 </div>
+                                       <button type="submit" class="btn btn-primary">Enviar</button>
+                             </form>
+                    </article>
+            
+            </section>  
+        </section> 
+        <aside>
+            <h3> Avisos:</h3>
+            <p> Puedes realizar citas desde nuestro numero de WhatsApp</p>
+            
+        </aside>
+        <div >
+            <img src="../static/imagenes/contac.jpeg" width: 250px height: 300px>
+        </div>
+
+{%endblock%}

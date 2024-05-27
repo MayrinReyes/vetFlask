@@ -1,0 +1,80 @@
+header, nav, .main, footer, div{
+    width: 95%;
+    max-width: 1000px;
+    margin:5px auto;
+}
+.INDEX{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagenes/huellas_negro.jpeg);
+    backdrop-filter: blur(2px);
+}
+nav{
+    color:rgb(32, 32, 110);
+    background: #2562d4cc;
+    overflow: hidden;
+    margin: 10px auto;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    font-family:cursive;
+    font-size: larger;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 4%;
+    background: #2562d45e;
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    margin: 10px;
+    background: rgb(99, 99, 99);
+    margin-bottom: 20px;
+}
+aside{
+    width: 26%;
+    float: left;
+    background: rgb(46, 52, 129);
+    padding: 5px;
+    box-sizing: border-box;
+}
+footer{
+    clear:both;
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+header{
+    color:#2562d4;
+    font-family:Georgia;
+    font-size: 200%;
+    text-align: center;
+}
+div img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 5px solid rgba(51, 45, 138, 0.664);
+    border-radius: 15px;
+}
+
+div video{
+    float: left;
+    width: 180px;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid rgba(51, 45, 138, 0.664);
+    border-radius: 15px;
+}
